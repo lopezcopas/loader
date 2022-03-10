@@ -3,12 +3,12 @@ Adds a loader to specified element
 
 USE:
 
-#Spawn
+# Spawn
 new Loader(DOM parent element)
 
 Will capture parent element content and replace with a loading gif
 
-#Destroy
+# Destroy
 loader.destroy(BOOL flag)
 
 Removes loading gif and will replace with the captured content if flag, true by default, is true.
